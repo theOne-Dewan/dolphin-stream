@@ -19,7 +19,7 @@ function Header() {
             src={logo} width={120} height={120}
             />
         </header>
-    )
+    );
 };
 
 export default Header;

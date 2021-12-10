@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import CategoryNavbar from '../components/category-navbar'
 import Header from '../components/header'
 
 export default function Home() {
@@ -10,17 +11,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-    {/* Header */}
-
       <Header/>
-
-    {/* Categories */}
-
-
-
-    {/* Content */}
-
-
+      <CategoryNavbar/>
 
     </div>
   )
